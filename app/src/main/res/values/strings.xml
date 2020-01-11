@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Wear Healthcare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="device_images">
+        <item>@drawable/ic_vitals_body_temperature</item>
+        <item>@drawable/ic_vitals_hand_blood_pressure</item>
+        <item>@drawable/ic_vitals_heart_rate</item>
+        <item>@drawable/ic_vitals_leg_blood_pressure</item>
+        <item>@drawable/ic_vitals_neck_blood_pressure</item>
+        <item>@drawable/ic_vitals_respiratory_rate</item>
+    </string-array>
+
+</resources>

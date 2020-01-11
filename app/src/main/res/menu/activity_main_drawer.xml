@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_register"
+            android:icon="@drawable/ic_menu_register"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_item_monitor"
+            android:icon="@drawable/ic_menu_monitor"
+            android:title="Monitor" />
+        <item
+            android:id="@+id/nav_item_vitals"
+            android:icon="@drawable/ic_menu_vital_stats"
+            android:title="Vital Signs" />
+        <item
+            android:id="@+id/nav_item_recommend"
+            android:icon="@drawable/ic_menu_recommendation"
+            android:title="Recommendation" />
+        <item
+            android:id="@+id/nav_item_scan"
+            android:icon="@drawable/ic_menu_scan"
+            android:title="Body Scan" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

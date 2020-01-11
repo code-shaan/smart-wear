@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/register_linear_layout_main"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <TextView
+        android:id="@+id/register_name_property"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="fill_parent"
+        android:padding="3dp"
+        android:text="Full Name" />
+
+    <EditText
+        android:id="@+id/register_name_value"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/register_user_name_property"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="fill_parent"
+        android:padding="3dp"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/register_user_name_value"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_width="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/register_layout_for_email_phone_property"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/register_email_property"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:padding="3dp"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/register_phone_property"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:padding="3dp"
+            android:text="Phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/register_layout_for_email_phone_value"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/register_email_value"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/register_phone_value"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:padding="3dp"
+            android:layout_marginRight="1dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register_street_property"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="fill_parent"
+        android:padding="3dp"
+        android:text="Street" />
+
+    <EditText
+        android:id="@+id/register_street_value"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_width="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/register_layout_for_address_property"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/register_city_property"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:layout_width="fill_parent"
+            android:padding="3dp"
+            android:text="City" />
+
+        <TextView
+            android:id="@+id/register_state_property"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:layout_width="fill_parent"
+            android:padding="3dp"
+            android:text="State" />
+
+        <TextView
+            android:id="@+id/register_zip_property"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight=".34"
+            android:layout_width="fill_parent"
+            android:padding="3dp"
+            android:text="Zip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/register_layout_for_address_value"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/register_city_value"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:layout_width="fill_parent"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/register_state_value"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:layout_width="fill_parent"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/register_zip_value"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight=".34"
+            android:layout_width="fill_parent"
+            android:layout_marginRight="1dp"
+            android:padding="3dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register_model_property"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="fill_parent"
+        android:padding="3dp"
+        android:text="Model" />
+
+    <EditText
+        android:id="@+id/register_model_value"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_width="fill_parent" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Register"/>
+
+</LinearLayout>

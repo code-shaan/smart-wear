@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PCP Name"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/monitor_edit_text_pcp_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/monitor_edit_text_pcp_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/monitor_layout_user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="user12345" />
+
+    <Switch
+        android:id="@+id/simpleSwitch1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <Switch
+        android:id="@+id/simpleSwitch2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <Switch
+        android:id="@+id/simpleSwitch3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <Switch
+        android:id="@+id/simpleSwitch4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <Switch
+        android:id="@+id/simpleSwitch5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <Switch
+        android:id="@+id/simpleSwitch6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+</LinearLayout>
